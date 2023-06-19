@@ -52,7 +52,7 @@ add_action('widgets_init', 'register_ajax_filter_widget');
  * @param array $args An array of default widget arguments.
  * @return array|bool
  */
-function handle_widget_instance(array $instance, WP_Widget $widget, array $args): array|bool
+function handle_widget_instance(array $instance, WP_Widget $widget, array $args)
 {
     if ($widget->id_base === 'ajax_filter') {
         if (is_page_template('home-page-custom.php')) {
