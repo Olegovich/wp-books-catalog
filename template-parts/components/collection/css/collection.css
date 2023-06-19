@@ -1,0 +1,16 @@
+.collection {
+    padding-top: 1rem;
+}
+
+.collection > :last-child {
+    margin-bottom: 0;
+}
+
+.collection .ajax-cards-list {
+    transition: opacity 0.5s ease;
+}
+
+.collection .ajax-cards-item--processing {
+    pointer-events: none;
+    opacity: 50%;
+}

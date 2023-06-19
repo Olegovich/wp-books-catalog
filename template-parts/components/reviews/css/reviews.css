@@ -1,0 +1,21 @@
+.reviews__item {
+    padding: 30px;
+    background-color: var(--border-color);
+    border-radius: 10px;
+}
+
+.reviews__item-quotation {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.reviews__item-author {
+    color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+    .reviews__item-author {
+        padding-left: 6%;
+    }
+}

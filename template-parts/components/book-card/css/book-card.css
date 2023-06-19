@@ -1,0 +1,45 @@
+.book-card {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.book-card > :last-child,
+.book-card__content > :last-child {
+    margin-bottom: 0;
+}
+
+.bs-blog-post .book-card__title {
+    margin-bottom: 0.75rem;
+}
+
+.book-card__info {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.book-card__info > .fa {
+    margin-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .book-card__img-wrapper {
+        flex-shrink: 0;
+        width: 8rem;
+        margin-right: 1.5rem;
+    }
+
+    .book-card__img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .book-card {
+        flex-direction: column;
+    }
+
+    .book-card__content {
+        margin-bottom: 1.5rem;
+    }
+}

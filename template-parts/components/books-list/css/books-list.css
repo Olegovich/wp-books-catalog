@@ -1,0 +1,17 @@
+.books-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+@media (min-width: 768px) {
+    .books-list__item:not(:last-child) {
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .books-list__item:not(:last-child) {
+        margin-bottom: 3.5rem;
+    }
+}

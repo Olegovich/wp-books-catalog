@@ -1,0 +1,30 @@
+/*
+Theme Name: Blogus Child
+Theme URI: https://github.com/Olegovich/wp-book-catalog
+Description: Child theme for Blogus parent theme
+Author: Olegovich
+Author URI: https://github.com/Olegovich/
+Template: blogus
+Version: 1.0.0
+Text Domain: blogus-child
+*/
+
+@import url("../blogus/style.css");
+
+img {
+    max-width: 100%;
+}
+
+/* Widgets */
+.bs-sidebar .widget_ajax_filter {
+    padding: 15px;
+}
+
+/* Single posts */
+.single > :last-child {
+    margin-bottom: 0;
+}
+
+.single__content:not(:empty) {
+    margin-bottom: 3rem;
+}
